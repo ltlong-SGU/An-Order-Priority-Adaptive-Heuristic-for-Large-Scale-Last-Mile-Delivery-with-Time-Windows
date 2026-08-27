@@ -1,0 +1,415 @@
+{
+  "experiment": "E1 - Dataset validation and descriptive analysis",
+  "created_at": "2026-08-25T11:21:03",
+  "dataset_source": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\homberger_1000_customer_instances.zip",
+  "dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "instances": 60,
+  "customers_total": 60000,
+  "valid_instances": 60,
+  "error_count": 0,
+  "warning_count": 0,
+  "families": [
+    {
+      "family": "C1",
+      "distribution": "Clustered / type 1",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 200,
+      "valid_instances": 10,
+      "mean_total_demand": 17940.0,
+      "mean_vehicle_lower_bound": 90.0,
+      "mean_window_width": 398.5508,
+      "mean_depot_distance": 201.39422337210365,
+      "mean_nearest_neighbor_distance": 2.5471499564386164,
+      "individually_infeasible_customers": 0
+    },
+    {
+      "family": "C2",
+      "distribution": "Clustered / type 2",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 700,
+      "valid_instances": 10,
+      "mean_total_demand": 19150.0,
+      "mean_vehicle_lower_bound": 28.0,
+      "mean_window_width": 970.9751,
+      "mean_depot_distance": 170.20780521831048,
+      "mean_nearest_neighbor_distance": 4.63993252667385,
+      "individually_infeasible_customers": 0
+    },
+    {
+      "family": "R1",
+      "distribution": "Random / type 1",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 200,
+      "valid_instances": 10,
+      "mean_total_demand": 18118.0,
+      "mean_vehicle_lower_bound": 91.0,
+      "mean_window_width": 544.4680999999999,
+      "mean_depot_distance": 192.38834084298418,
+      "mean_nearest_neighbor_distance": 7.8293169492900585,
+      "individually_infeasible_customers": 0
+    },
+    {
+      "family": "R2",
+      "distribution": "Random / type 2",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 1000,
+      "valid_instances": 10,
+      "mean_total_demand": 18118.0,
+      "mean_vehicle_lower_bound": 19.0,
+      "mean_window_width": 2423.6813,
+      "mean_depot_distance": 192.38834084298415,
+      "mean_nearest_neighbor_distance": 7.8293169492900585,
+      "individually_infeasible_customers": 0
+    },
+    {
+      "family": "RC1",
+      "distribution": "Mixed / type 1",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 200,
+      "valid_instances": 10,
+      "mean_total_demand": 17822.0,
+      "mean_vehicle_lower_bound": 90.0,
+      "mean_window_width": 309.6061,
+      "mean_depot_distance": 197.7606027883456,
+      "mean_nearest_neighbor_distance": 6.357136235698835,
+      "individually_infeasible_customers": 0
+    },
+    {
+      "family": "RC2",
+      "distribution": "Mixed / type 2",
+      "instances": 10,
+      "customers_per_instance": 1000,
+      "vehicle_limit": 250,
+      "capacity": 1000,
+      "valid_instances": 10,
+      "mean_total_demand": 17822.0,
+      "mean_vehicle_lower_bound": 18.0,
+      "mean_window_width": 1335.1169,
+      "mean_depot_distance": 197.7606027883456,
+      "mean_nearest_neighbor_distance": 6.357136235698835,
+      "individually_infeasible_customers": 0
+    }
+  ],
+  "files": [
+    {
+      "instance": "C1_10_1",
+      "source_file": "C1_10_1.TXT",
+      "sha256": "71212f0276856362239cd696673d2bc31f83c8561dc784260b495718ac852aff"
+    },
+    {
+      "instance": "C1_10_2",
+      "source_file": "C1_10_2.TXT",
+      "sha256": "71ac290b422f55870e793580b57aaa0a8e54b75d3026d21307eec6703c64a62e"
+    },
+    {
+      "instance": "C1_10_3",
+      "source_file": "C1_10_3.TXT",
+      "sha256": "a33a3c38f1e8b82d2c4375a4c974a57c2b65ea9e8c7b0b6b3d10065e82e8f203"
+    },
+    {
+      "instance": "C1_10_4",
+      "source_file": "C1_10_4.TXT",
+      "sha256": "d7f0ad9b4846af35cc54b481491206628faddff1e2e9c22c90d1090ac25f5054"
+    },
+    {
+      "instance": "C1_10_5",
+      "source_file": "C1_10_5.TXT",
+      "sha256": "4b31d21bd3e7fe215f7975029cedde6c01f0aa2e7655488a7ac77639004a7a2c"
+    },
+    {
+      "instance": "C1_10_6",
+      "source_file": "C1_10_6.TXT",
+      "sha256": "73e4ee1c54dbc552bb5fa90c8cb442962c123aed7a5d2c7d45dfbb9384453499"
+    },
+    {
+      "instance": "C1_10_7",
+      "source_file": "C1_10_7.TXT",
+      "sha256": "f2562ff7f937aec48dd9d40add88b9af10f3eb37a55939eef611389154c665a0"
+    },
+    {
+      "instance": "C1_10_8",
+      "source_file": "C1_10_8.TXT",
+      "sha256": "604ef7c2bb9bc8312634500dafb93ba5f2beb0e31695670a0b7cf954e6afb9a7"
+    },
+    {
+      "instance": "C1_10_9",
+      "source_file": "C1_10_9.TXT",
+      "sha256": "614e7b5f6f9d323ccf055682762f7e6272f026a155f2ceaec67b3a77ba056f49"
+    },
+    {
+      "instance": "C1_10_10",
+      "source_file": "C1_10_10.TXT",
+      "sha256": "40a3ddb6b25a698df709ffe159aeb3d33d5799d589f49c1a8e4572476cbc53ea"
+    },
+    {
+      "instance": "C2_10_1",
+      "source_file": "C2_10_1.TXT",
+      "sha256": "a714abab4d36bcbfd4c31c50986818a0fa44f4c6332b265ecd4599152f930634"
+    },
+    {
+      "instance": "C2_10_2",
+      "source_file": "C2_10_2.TXT",
+      "sha256": "b0e53e1c0a42000a7a4f5d5a7387d78f8f33849546ccb33b2f0591e3c802cff7"
+    },
+    {
+      "instance": "C2_10_3",
+      "source_file": "C2_10_3.TXT",
+      "sha256": "d717bffdb274fd6b4eb591355a90b08a696f39c6744254318556355bae185ea7"
+    },
+    {
+      "instance": "C2_10_4",
+      "source_file": "C2_10_4.TXT",
+      "sha256": "b289613e88954f9f1777a8f6397a2e7dab7b5a2f47411f1d49be15485d3b5eb6"
+    },
+    {
+      "instance": "C2_10_5",
+      "source_file": "C2_10_5.TXT",
+      "sha256": "e3336a927836a98e1a2e998f81cdccf18c14151e7b8a75ba9708ea7e63d264f8"
+    },
+    {
+      "instance": "C2_10_6",
+      "source_file": "C2_10_6.TXT",
+      "sha256": "79bfec050a26f5014fdee6f921461398799245df8db37f9c3863bf8149075880"
+    },
+    {
+      "instance": "C2_10_7",
+      "source_file": "C2_10_7.TXT",
+      "sha256": "7487494adb697470f98cc971003cf13a94f45afcacd685c1950096aa32c898fc"
+    },
+    {
+      "instance": "C2_10_8",
+      "source_file": "C2_10_8.TXT",
+      "sha256": "b898941512d74f556cca9acc0392489b8f39ba8746720335a8d875655dddcb61"
+    },
+    {
+      "instance": "C2_10_9",
+      "source_file": "C2_10_9.TXT",
+      "sha256": "960210c42bce1af267c46110e1bd611acc630c2773cc1618f19389b552ec88b0"
+    },
+    {
+      "instance": "C2_10_10",
+      "source_file": "C2_10_10.TXT",
+      "sha256": "ab8a11873fe00fbb38d47d21f1e12e4da27cda32fc234455e539e331d1c158ee"
+    },
+    {
+      "instance": "R1_10_1",
+      "source_file": "R1_10_1.TXT",
+      "sha256": "4fdd2a2f4d369724ba3d7f038a4a709ebd095b48fc7a5ba6829a191d10b6a8fa"
+    },
+    {
+      "instance": "R1_10_2",
+      "source_file": "R1_10_2.TXT",
+      "sha256": "fa9a6a0633d3b398ce56f87065239ed8e0e7df363ee9dfdb688bc33e9174eb6a"
+    },
+    {
+      "instance": "R1_10_3",
+      "source_file": "R1_10_3.TXT",
+      "sha256": "152679b6f2f18ecad225d05281c6fc12bff0535aff84911e7ff934f7faff3dd1"
+    },
+    {
+      "instance": "R1_10_4",
+      "source_file": "R1_10_4.TXT",
+      "sha256": "5e64492bdba6a27cab2edc9574e5408f1f2ae208ac811d70fee75691ef4f8480"
+    },
+    {
+      "instance": "R1_10_5",
+      "source_file": "R1_10_5.TXT",
+      "sha256": "38af87e75b1feaa5e02c145ca7d378ed570f1cfe27506bbe34fa06cf6974321b"
+    },
+    {
+      "instance": "R1_10_6",
+      "source_file": "R1_10_6.TXT",
+      "sha256": "17c63722688374b141e4c8740ca9b1fad0d1f2586ddb269dc4a15f6b88eae067"
+    },
+    {
+      "instance": "R1_10_7",
+      "source_file": "R1_10_7.TXT",
+      "sha256": "f163fdf95b18501afbd1c8ce76c944dd051ca2310f648f1f99f1000c474d1997"
+    },
+    {
+      "instance": "R1_10_8",
+      "source_file": "R1_10_8.TXT",
+      "sha256": "911721bcef6e0954fbb94393ebe7730f3c6454379d7fbfa78fd65277c222ec78"
+    },
+    {
+      "instance": "R1_10_9",
+      "source_file": "R1_10_9.TXT",
+      "sha256": "c09a2a8112138bf7af1956f5d2d29438402d3dc68fe5c6bf31881e3f67ceb48a"
+    },
+    {
+      "instance": "R1_10_10",
+      "source_file": "R1_10_10.TXT",
+      "sha256": "ef9ad8300be1bce235ae7417b41ef89dfe40a439a1ff64449e3b446be08d5773"
+    },
+    {
+      "instance": "R2_10_1",
+      "source_file": "R2_10_1.TXT",
+      "sha256": "5da1c7b570f131d05a516aa3cd59909e37df52bbd24a9d751db9fa88c32ceae7"
+    },
+    {
+      "instance": "R2_10_2",
+      "source_file": "R2_10_2.TXT",
+      "sha256": "77ea5365bf3256b4e94b7219887ab666bb7cc5d78e5a078e028106e9589d29b1"
+    },
+    {
+      "instance": "R2_10_3",
+      "source_file": "R2_10_3.TXT",
+      "sha256": "c14854ecaf571a4214ed2e17b963bd21fd9f2e39d35d35f3b42975821adb0fa7"
+    },
+    {
+      "instance": "R2_10_4",
+      "source_file": "R2_10_4.TXT",
+      "sha256": "3d0d421465fbf307f680f12de5b5789e0737ec29f784dc9e8ea7dd3af8b777e0"
+    },
+    {
+      "instance": "R2_10_5",
+      "source_file": "R2_10_5.TXT",
+      "sha256": "70cd5ee729fc7c0e4934aac9db7d26ea97c98367a128d4d347db2f6625c9e5d5"
+    },
+    {
+      "instance": "R2_10_6",
+      "source_file": "R2_10_6.TXT",
+      "sha256": "e601f98d1e2f3134e2c043f5b92ba605fd02dc36f405f161abd7ac822eede417"
+    },
+    {
+      "instance": "R2_10_7",
+      "source_file": "R2_10_7.TXT",
+      "sha256": "2676e341b6d7d92f5c63de5af1105eb5a35dc12a7b9a069563883481f4b2b78f"
+    },
+    {
+      "instance": "R2_10_8",
+      "source_file": "R2_10_8.TXT",
+      "sha256": "557c1da255451d54a0c0d6e2934b2fadcf899169410737cedee4b0647e87129b"
+    },
+    {
+      "instance": "R2_10_9",
+      "source_file": "R2_10_9.TXT",
+      "sha256": "6f5a2179e2e0b607767991d65f82553552031a522622af7de5071b301bed6562"
+    },
+    {
+      "instance": "R2_10_10",
+      "source_file": "R2_10_10.TXT",
+      "sha256": "00ed9703a3bf19d0a9f34db0eb00ca7e9cc9a79d26a119a2148bfdbb5bf7c36b"
+    },
+    {
+      "instance": "RC1_10_1",
+      "source_file": "RC1_10_1.TXT",
+      "sha256": "2595ef62630050a5bc331ec25a63ebf4ec03b843bdb3dd479459007d43245cfe"
+    },
+    {
+      "instance": "RC1_10_2",
+      "source_file": "RC1_10_2.TXT",
+      "sha256": "d4ebff2265fc9008dc19602dde17b854379b1443c7d4c3c9811a4e4816051333"
+    },
+    {
+      "instance": "RC1_10_3",
+      "source_file": "RC1_10_3.TXT",
+      "sha256": "9f1ef38f15d2dad858b1beb58e3040b1179a53f3fe389ac5e47172123f06723f"
+    },
+    {
+      "instance": "RC1_10_4",
+      "source_file": "RC1_10_4.TXT",
+      "sha256": "ed6940c6a0c5c1e1631c39017ae79ac1937892c35ef7ca74d4e8c1313c40a767"
+    },
+    {
+      "instance": "RC1_10_5",
+      "source_file": "RC1_10_5.TXT",
+      "sha256": "388ae5c95539e610512c0944a658cbae47ebdc4173b0979ec4e365cb2b4c37fa"
+    },
+    {
+      "instance": "RC1_10_6",
+      "source_file": "RC1_10_6.TXT",
+      "sha256": "a0961b735555e98bf9f529c12d0bc2717f17208e01cbe5b7bc22a593266a1b71"
+    },
+    {
+      "instance": "RC1_10_7",
+      "source_file": "RC1_10_7.TXT",
+      "sha256": "637d9b2a639991a26702f387d81bf2258c562a64977a12761fc56f7ff759be04"
+    },
+    {
+      "instance": "RC1_10_8",
+      "source_file": "RC1_10_8.TXT",
+      "sha256": "9cf21237d1a24c743ca2f23763722ed392880b58ac7f95036720f0a0e9bc14c3"
+    },
+    {
+      "instance": "RC1_10_9",
+      "source_file": "RC1_10_9.TXT",
+      "sha256": "ae120dafd27affc04f085162c3f425d7ebd647e07531642d094450257b2aa3c6"
+    },
+    {
+      "instance": "RC1_10_10",
+      "source_file": "RC1_10_10.TXT",
+      "sha256": "da633bc86e8fa73ccf191fb009e5c0e7c42f42f60fcb4687ed94d7505790cf33"
+    },
+    {
+      "instance": "RC2_10_1",
+      "source_file": "RC2_10_1.TXT",
+      "sha256": "a2f226b174967844e071e817a4f2ad6f8fa49d912d2ec221175da6cf335576e2"
+    },
+    {
+      "instance": "RC2_10_2",
+      "source_file": "RC2_10_2.TXT",
+      "sha256": "8c4114b67e4b2bd3c254f550fa70896ee443c5446f50420f2f403f919a3b8a09"
+    },
+    {
+      "instance": "RC2_10_3",
+      "source_file": "RC2_10_3.TXT",
+      "sha256": "fdeafb1b29d1e74fa494b8fdbf1ff259cbe80120f176bcf048366af2b73ea439"
+    },
+    {
+      "instance": "RC2_10_4",
+      "source_file": "RC2_10_4.TXT",
+      "sha256": "8410f80f2a43a7effdc701b57bf6b3864d922958737717083e997dad5f3085ba"
+    },
+    {
+      "instance": "RC2_10_5",
+      "source_file": "RC2_10_5.TXT",
+      "sha256": "c53f7d1b8b7da3e521a15513a7d40e9a69ad26258b4b68af2965eddc323d1a72"
+    },
+    {
+      "instance": "RC2_10_6",
+      "source_file": "RC2_10_6.TXT",
+      "sha256": "c82508b391f3639abc62ae42d815528aacae56417e194db792ea9922fe3b5b6e"
+    },
+    {
+      "instance": "RC2_10_7",
+      "source_file": "RC2_10_7.TXT",
+      "sha256": "c25d224ae70b9ae3d4d97418cf7ddeead0ed447bad6dd97204d68d163ac0dac9"
+    },
+    {
+      "instance": "RC2_10_8",
+      "source_file": "RC2_10_8.TXT",
+      "sha256": "1ef5327f6f0d2950045638bd9fb252603a7aa28c39458444c4b9ee6077a48ed3"
+    },
+    {
+      "instance": "RC2_10_9",
+      "source_file": "RC2_10_9.TXT",
+      "sha256": "6276a2c9745d29e15288a1cbed3d65a1f1f72ca327e6f875e9fef2018ec94f1c"
+    },
+    {
+      "instance": "RC2_10_10",
+      "source_file": "RC2_10_10.TXT",
+      "sha256": "25f022e60b4f5bf797c94a173fbe0908a689e4626b4710f001a19b1eda30abe0"
+    }
+  ],
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  },
+  "elapsed_seconds": 56.627,
+  "distance_matrix_policy": "Computed sequentially; saved only when --save-matrices is set.",
+  "note": "Homberger coordinates and time values are synthetic benchmark units, not real streets, kilometers, or minutes."
+}
