@@ -1,0 +1,38 @@
+{
+  "experiment": "E3 - Order-difficulty validation",
+  "created_at": "2026-08-25T12:42:51",
+  "e2_zip": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E2.zip",
+  "e1_zip": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E1.zip",
+  "dataset": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\homberger_1000_customer_instances.zip",
+  "dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e1_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e2_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "match": true,
+  "instances": 60,
+  "orders": 60000,
+  "sample_size_per_instance": 200,
+  "sampled_orders": 12000,
+  "configurations": [
+    "P0_uniform",
+    "P1_urgency",
+    "P2_urgency_distance",
+    "P3_static_full",
+    "P4_proposed"
+  ],
+  "proposed_weights": {
+    "urgency": 0.3,
+    "distance": 0.25,
+    "capacity": 0.2,
+    "slack": 0.25
+  },
+  "mean_p4_spearman": 0.4834277978342298,
+  "mean_p4_top10_capture": 0.22666666666666668,
+  "elapsed_seconds": 133.7525966000976,
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  }
+}
