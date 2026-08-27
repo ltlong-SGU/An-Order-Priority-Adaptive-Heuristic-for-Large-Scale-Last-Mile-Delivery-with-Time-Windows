@@ -1,0 +1,41 @@
+{
+  "experiment": "E6 - final cross-stage integrity audit and publication synthesis",
+  "created_at": "2026-08-26T06:04:33",
+  "inputs": {
+    "E1": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E1.zip",
+    "E2": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E2.zip",
+    "E3": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E3.zip",
+    "E4": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E4.zip",
+    "E5": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E5.zip",
+    "dataset": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\homberger_1000_customer_instances.zip"
+  },
+  "input_archive_sha256": {
+    "E1": "d6693069660b766a62e0b7e770064b997c6cbbc070cb6d2cd3c7920e66c62565",
+    "E2": "fe35f7a130d9ba68ed3d1d6b25da1d98970459ea510ca7be1b579a3c2aa71414",
+    "E3": "d524091c8dbf3ff02873fc3dc27bddafc0ad3b8f6e506ee3bcccb72de4cebef4",
+    "E4": "a7353a3901e359ec24f6547aea5f2f4f5aeb5decfd17523fab0e27c0a18b147f",
+    "E5": "5dc7e55824b441cd7d1665b572ab5a42854fdc450b9433999eaf75316ed8b7a0",
+    "DATASET": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81"
+  },
+  "dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "instances": 60,
+  "runs_per_instance": 5,
+  "matched_seed_rows": 300,
+  "independent_route_validations": 180,
+  "all_archives_valid": true,
+  "lineage_consistent": true,
+  "all_runs_complete": true,
+  "all_independent_route_validations_passed": true,
+  "statistics": "instance-level paired tests with Holm-Bonferroni correction",
+  "effect_size": "matched-pairs rank-biserial correlation",
+  "optimizer_rerun": false,
+  "elapsed_seconds": 10.558429100000012,
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "scipy_available": true
+  }
+}
