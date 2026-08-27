@@ -1,0 +1,28 @@
+{
+  "experiment": "E2 - Multi-strategy BIH baseline",
+  "created_at": "2026-08-25T11:52:23",
+  "dataset": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\homberger_1000_customer_instances.zip",
+  "e1_zip": "F:\\dulieu\\Nghien cứu sinh\\Nghiên cứu sinh chính thức\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E1.zip",
+  "dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e1_dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "sha256_match": true,
+  "instances": 60,
+  "strategies": [
+    "earliest_due",
+    "earliest_ready",
+    "largest_demand",
+    "farthest_from_depot"
+  ],
+  "runs": 240,
+  "feasible_runs": 240,
+  "elapsed_seconds": 1071.4828257999616,
+  "objective": "Lexicographic: minimize vehicle count, then total Euclidean distance",
+  "distance_convention": "Double-precision Euclidean benchmark units",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  }
+}
