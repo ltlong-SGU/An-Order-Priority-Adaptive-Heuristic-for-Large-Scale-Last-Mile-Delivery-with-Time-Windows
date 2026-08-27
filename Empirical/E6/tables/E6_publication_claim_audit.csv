@@ -1,0 +1,6 @@
+﻿claim,supported,evidence
+All experimental stages use the same dataset bytes,True,SHA-256 2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81
+E5 covers all instances and matched seeds,True,60 instances x 5 seeds
+All independently checked routes are feasible,True,180 route validations; zero recorded violations
+DA-ADR is statistically superior after Holm correction,False,Use the E6 effect-size table; avoid a superiority claim when False
+BKS distances are directly comparable regardless of fleet size,False,Distance gaps have hierarchical meaning only at equal fleet size
