@@ -1,0 +1,7 @@
+﻿family,instances,matched_runs,unique_seeds,expected_instances,expected_runs,complete
+C1,10,50,5,10,50,True
+C2,10,50,5,10,50,True
+R1,10,50,5,10,50,True
+R2,10,50,5,10,50,True
+RC1,10,50,5,10,50,True
+RC2,10,50,5,10,50,True
