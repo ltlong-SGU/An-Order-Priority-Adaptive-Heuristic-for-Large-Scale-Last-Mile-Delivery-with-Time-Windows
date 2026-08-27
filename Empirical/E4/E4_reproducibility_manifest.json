@@ -1,0 +1,30 @@
+{
+  "experiment": "E4 - Complete DA-ADR",
+  "created_at": "2026-08-25T16:56:50",
+  "e1_zip": "F:\\dulieu\\Nghien c\u1ee9u sinh\\Nghi\u00ean c\u1ee9u sinh ch\u00ednh th\u1ee9c\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E1.zip",
+  "e2_zip": "F:\\dulieu\\Nghien c\u1ee9u sinh\\Nghi\u00ean c\u1ee9u sinh ch\u00ednh th\u1ee9c\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E2.zip",
+  "e3_zip": "F:\\dulieu\\Nghien c\u1ee9u sinh\\Nghi\u00ean c\u1ee9u sinh ch\u00ednh th\u1ee9c\\Paper_An Order-Priority Adaptive Heuristic for Large-Scale Last-Mile Delivery with Time Windows\\Empirical\\E3.zip",
+  "e1_zip_sha256": "d6693069660b766a62e0b7e770064b997c6cbbc070cb6d2cd3c7920e66c62565",
+  "e2_zip_sha256": "fe35f7a130d9ba68ed3d1d6b25da1d98970459ea510ca7be1b579a3c2aa71414",
+  "e3_zip_sha256": "d524091c8dbf3ff02873fc3dc27bddafc0ad3b8f6e506ee3bcccb72de4cebef4",
+  "dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e1_dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e2_dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "e3_dataset_sha256": "2e96845ee870ef21f833a216a79866e812232d3d922db3e14c30790f06780a81",
+  "instances": 60,
+  "runs_per_instance": 5,
+  "iterations": 300,
+  "time_limit_seconds_per_run": 45.0,
+  "base_seed": 2026,
+  "non_degradation_safeguard": "E2 solution retained in archive and independently revalidated",
+  "all_feasible": true,
+  "all_non_degraded": true,
+  "elapsed_seconds": 14330.439951699926,
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  }
+}
